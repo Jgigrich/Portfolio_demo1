@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #2d3c49;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+  padding: 10px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #7d97ad;
+  margin-bottom: 20px;
+}
+
+.code-icon {
+  font-size: calc(1.3em + 5vw);
+  color: #02b3e4;
+}
+
+.name {
+  font-size: calc(1em + 3vw);
+}
+
+.job-title {
+  font-size: calc(0.5em + 2vw);
+}
+
+@media screen and (min-width: 1920px){
+  .code-icon {font-size: 116.8px;}
+  .name {font-size: 73.6px;}
+  .job-title {font-size: 46.4px;}
+}
+
+.hero-container {
+  max-width: 100vu;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-img {
+  min-height: 100%;
+}
+
+.featured {
+  margin: 20px 20px;
+  color: #7d97ad;
+  font-size: calc(0.5em + 2vw);
+}
+
+@media screen and (min-width: 1920px){
+  .featured {font-size: 46.4px;}
+}
+
+.apps {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.temp {
+  flex: 1;
+  max-width: 500px;
+  min-width: 320px;
+  height: 400px;
+  background-color: red;
+  margin: 10px;
+}
