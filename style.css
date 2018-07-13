@@ -71,11 +71,25 @@ header {
   justify-content: space-around;
 }
 
-.temp {
+.app-container {
   flex: 1;
   max-width: 500px;
-  min-width: 320px;
-  height: 400px;
-  background-color: red;
+  min-width: 300px;
   margin: 10px;
+  text-align: center;
+}
+
+.app-img-container {
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.app-container img {
+  max-width: 100%;
+}
+
+a {
+  color: #2d3c49;
+  text-decoration: none;
 }
