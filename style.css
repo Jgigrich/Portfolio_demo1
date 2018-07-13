@@ -45,7 +45,7 @@ header {
 }
 
 .hero-container {
-  max-width: 100vu;
+  min-width: 100vu;
   height: 200px;
   display: flex;
   justify-content: center;
